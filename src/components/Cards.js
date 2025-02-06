@@ -20,7 +20,7 @@ const Cards = ({ courses }) => {
     <div>
       {
       getCourses ().map((course) => {
-         return  <Card key={course.id} course = {course} />;
+         return  <Card key={course.id} course = {course} />
       })}
     </div>
   );
